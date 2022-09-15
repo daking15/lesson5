@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Almendra:wght@400;700&display=swap');
+
+
+@font-face {
+    font-family: "Marske";
+    src: url(../fonts/Marske.woff2) format("woff2"), url(../fonts/Marske.woff) format("woff");
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.nav {
+    margin: 30px;
+    padding: 20px 30px;
+    text-align: center;
+
+}
+.colum li {
+    font-family: Almendra;
+    font-weight: 700;
+    font-style: normal;
+    color:red;
+    text-decoration: underline;
+}
+p ~ ul {
+    font-family: Marske;
+    color:aqua;
+    font-size: 50px;
+    text-decoration: line-through;
+}
+.block  p {
+    font-family: Marske;
+    color:green;
+    text-indent: 15px;
+    letter-spacing: 10px;
+}
+ul ~ p {
+    font-family: Almendra;
+    font-weight: 700;
+    color:darkorange;
+    text-decoration: dashed;
+    text-shadow: 2px 2px 5px #000;
+}
+ul + p {
+    color:darkturquoise;
+    text-transform: uppercase;
+}
+img {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.training {
+    margin-top: 30px;
+    padding: 20px;
+}
+.training p {
+    font-family: Almendra;
+    font-weight: 700;
+    font-style: normal;
+    color:goldenrod;
+    text-decoration: line-through;
+}
+p ~ a {
+    font-family: Almendra;
+    color: red;
+}
+p + a {
+    font-family: Marske;
+    color:blue;
+}
